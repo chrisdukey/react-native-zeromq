@@ -19,9 +19,9 @@ export class ZeroMQ {
       XSUB:   Core.bridge.ZMQ_XSUB,
 
       DEALER: Core.bridge.ZMQ_DEALER,
-      ROUTER: Core.bridge.ZMQ_ROUTER
+      ROUTER: Core.bridge.ZMQ_ROUTER,
 
-      PUSH: Core.bridge.ZMQ_PUSH
+      PUSH: Core.bridge.ZMQ_PUSH,
       PULL: Core.bridge.ZMQ_PULL
 
     },
