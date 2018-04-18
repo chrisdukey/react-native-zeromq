@@ -20,6 +20,10 @@ export class ZeroMQ {
 
       DEALER: Core.bridge.ZMQ_DEALER,
       ROUTER: Core.bridge.ZMQ_ROUTER
+
+      PUSH: Core.bridge.ZMQ_PUSH
+      PULL: Core.bridge.ZMQ_PULL
+
     },
     OPTS: {
       DONT_WAIT:  Core.bridge.ZMQ_DONTWAIT,

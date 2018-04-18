@@ -75,6 +75,9 @@ class ReactNativeZeroMQ extends ReactContextBaseJavaModule {
         constants.put("ZMQ_DEALER", ZMQ.DEALER);
         constants.put("ZMQ_ROUTER", ZMQ.ROUTER);
 
+        constants.put("ZMQ_PUSH", ZMQ.PUSH);
+        constants.put("ZMQ_PULL", ZMQ.PULL);
+
         // @TODO: add socket options constants
 
         return constants;
